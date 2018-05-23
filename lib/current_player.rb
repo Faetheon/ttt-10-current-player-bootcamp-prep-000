@@ -10,4 +10,5 @@ def turn_count(board)
     end
   end
   # for reference primary_colors.each do |color|
+  return turn;
 end
