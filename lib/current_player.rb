@@ -12,3 +12,7 @@ def turn_count(board)
   # for reference primary_colors.each do |color|
   return turn
 end
+
+def current_player(board)
+  
+end
