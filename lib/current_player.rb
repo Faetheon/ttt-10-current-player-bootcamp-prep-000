@@ -14,5 +14,15 @@ def turn_count(board)
 end
 
 def current_player(board)
-  
+  player_turn = 0;
+  if player_turn % 2 === 0
+    player_turn = 2
+  else
+    player_turn = 1
+  end
+  if player_turn === 1
+    return "O"
+  elsif player_turn === 2
+    return "O"
+  end
 end
