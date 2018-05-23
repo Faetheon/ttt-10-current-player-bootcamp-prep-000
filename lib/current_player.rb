@@ -1,10 +1,10 @@
 def turn_count(board)
   x = 0
   turn = 0
-  board.each do | board |
+  board.each do |move|
     x += 1
-    if board[x] === "" board[x] === " " board[x] === nil
-      
+    if move === "" || move === " " || move === nil
+    
     else
     turn += 1
     end
