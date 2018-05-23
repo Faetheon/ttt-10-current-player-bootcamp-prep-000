@@ -21,7 +21,7 @@ def current_player(board)
     player_turn = 1
   end
   if player_turn === 1
-    return "O"
+    return "X"
   elsif player_turn === 2
     return "O"
   end
